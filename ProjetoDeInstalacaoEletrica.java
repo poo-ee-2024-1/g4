@@ -49,19 +49,3 @@ public class ProjetoDeInstalacaoEletrica {
         return custoTotalDoProjeto;
     }
 }
-erá necessário " + quantidadeDePontos + " pontos de iluminação na área desejada.");
-
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
-            alert.setTitle("Resultado do Cálculo");
-            alert.setHeaderText(null);
-            alert.setContentText(resultadoLabel.getText());
-            alert.showAndWait();
-        } catch (NumberFormatException e) {
-            Alert alert = new Alert(Alert.AlertType.ERROR);
-            alert.setTitle("Erro");
-            alert.setHeaderText(null);
-            alert.setContentText("Por favor, insira valores válidos.");
-            alert.showAndWait();
-        }
-    }
-}
