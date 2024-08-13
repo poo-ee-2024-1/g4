@@ -27,11 +27,3 @@ public class CalculadoraDePontosDeTomada {
         return 2 * (largura + comprimento);
     }
 }
-
-    private double calcularPerimetro(Comodo comodo) {
-        // Suponho que o comodo tem um método getLargura() e getComprimento() que retorna a largura e comprimento do comodo
-        double largura = comodo.getLargura();
-        double comprimento = comodo.getComprimento();
-        return 2 * (largura + comprimento);
-    }
-}
